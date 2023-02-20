@@ -16,7 +16,9 @@
           "type": "fargate",
           "domain": "www.yourdomain.com",
           "outputDirectory": ".output",
-          "startCommand": "node .output/server/index.mjs"
+          "startCommand": "node .output/server/index.mjs",
+          "cpu": 0.25,
+          "memory": 0.5,
         }
       ]
     }
