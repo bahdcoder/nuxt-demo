@@ -10,15 +10,13 @@
       },
       "services": [
         {
-          "id": "nitro",
-          "buildType": "nixpacks",
-          "name": "My Nitro site",
-          "type": "fargate",
-          "domain": "www.yourdomain.com",
-          "outputDirectory": ".output",
-          "startCommand": "node .output/server/index.mjs",
-          "cpu": 0.25,
-          "memory": 0.5
+          "id": "my-static",
+          "name": "My Static Site",
+          "type": "static",
+          "domain": "www.example.com",
+          "buildCommand": "nuxt generate",
+          "outputDirectory": ".output/public",
+          "singlePageApp": false
         }
       ]
     }
