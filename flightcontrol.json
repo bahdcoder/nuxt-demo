@@ -16,7 +16,7 @@
           "buildType": "nixpacks",
           "domain": "www.example.com",
           "buildCommand": "nuxt generate",
-          "outputDirectory": ".output/public",
+          "outputDirectory": "./.output/public",
           "singlePageApp": false
         }
       ]
