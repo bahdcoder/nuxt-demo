@@ -13,6 +13,7 @@
           "id": "my-static",
           "name": "My Static Site",
           "type": "static",
+          "buildType": "nixpacks",
           "domain": "www.example.com",
           "buildCommand": "nuxt generate",
           "outputDirectory": ".output/public",
